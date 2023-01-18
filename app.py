@@ -1,3 +1,4 @@
+import pandas as pd
 from dash import Dash, dcc, html, Input, Output
 import os
 
@@ -23,4 +24,4 @@ def display_value(value):
     return f'Sie haben folgendes gewählt {value}'
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=False)
